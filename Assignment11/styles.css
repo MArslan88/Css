@@ -1,5 +1,14 @@
+@import 'https://fonts.googleapis.com/css?family=Baloo+Tamma'; 
+/* it will import online font  */
+
+.div1{
+    font-family: "Baloo Tamma", 'Times New Roman', Times, serif;
+    background-color: rgba(187, 195, 199, 0.548);
+    color: rgb(53, 72, 82);
+       
+}
 .div1{
     background-color: rgba(187, 195, 199, 0.548);
-    color: rgb(53, 72, 82)
-    
+    color: rgb(53, 72, 82);
+       
 }
