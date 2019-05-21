@@ -1,0 +1,79 @@
+ul {
+    list-style-image: url("icon-plus.png");
+}
+
+ol {
+    list-style-image: url("star.png");
+}
+.skills{
+    border-spacing: 0px;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+.skills th{
+    border: 1px solid black;
+    background-color: #7ba8d2;
+    padding: 3px 30 px 3px 10px;
+    color: white;
+}
+.skills td{
+    border: 1px solid black;
+    background-color: #cee3f4;
+    padding: 3px 30px 3px 10px;
+}
+
+fieldset{
+    width: 400px;
+}
+input {
+    font-size: 120%;
+    color: #5a5854;
+    background-color: #f2f2f2;
+    border: 1px solid #bdbdbd;
+    border-radius: 5px;
+    padding: 5px 5px 5px 40px;
+    background-repeat: no-repeat;
+    background-position: 8px 9px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+fieldset{
+    width: 400px;
+    padding: 30px 10px;
+    background-color: white;
+}
+legend{
+    font-style: italic;
+}
+
+input#Name, input#Email{
+    font-size: 120%;
+    width: 150px;
+    border-radius: 5px;
+    background-color: lightgray;
+    background-repeat: no-repeat;
+    padding: 5px 5px 5px 30px;
+    background-position: 10px 10 px;
+}
+input#email {
+    background-image: url("email.png");
+}
+input#name{
+    background-image: url("icon-plus.png");
+}
+input#submit{
+    margin: 10px 300px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #055f44;
+    background-color: #108663;
+    color: white;
+}
+input#submit:hover{
+    box-shadow: inset 0 0 10px #055f44;
+}
+
+
+
+
